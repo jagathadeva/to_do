@@ -65,7 +65,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 title: const Text('What would you like to do?'),
                 content: TextField(
                   onSubmitted: (value) {
-                     // List newTodo = [myController.text, false];                   
+                      List newTodo = [myController.text, false];                   
                   },
                   controller: myController,
                 ),
